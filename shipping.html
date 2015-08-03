@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Shipping Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculate your shipping cost</h1>
+      <h2>Enter your package dimensions and weight</h2>
+      <form action="shipping.php">
+        <div class="form-group">
+            <label for="weight">Enter Package Weight (Lbs)</label>
+            <input id="weight" name="weight" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+          <label for="length">Enter Package Length (Inches)</label>
+          <input id="length" name="length" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+            <label for="width">Enter Width (Inches):</label>
+            <input id="width" name="width" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+          <label for="height">Enter Height (Inches)</label>
+          <input id="height" name="height" class="form-control" type="number">
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
